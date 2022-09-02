@@ -8,20 +8,23 @@
 
 /* Begin PBXBuildFile section */
 		5E4571E628AF34D20090DAB4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E4571E528AF34D20090DAB4 /* AppDelegate.m */; };
-		5E4571E928AF34D20090DAB4 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E4571E828AF34D20090DAB4 /* SceneDelegate.m */; };
 		5E4571EC28AF34D20090DAB4 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E4571EB28AF34D20090DAB4 /* ViewController.m */; };
 		5E4571EF28AF34D20090DAB4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5E4571ED28AF34D20090DAB4 /* Main.storyboard */; };
 		5E4571F128AF34D30090DAB4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5E4571F028AF34D30090DAB4 /* Assets.xcassets */; };
 		5E4571F428AF34D30090DAB4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5E4571F228AF34D30090DAB4 /* LaunchScreen.storyboard */; };
 		5E4571F728AF34D30090DAB4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E4571F628AF34D30090DAB4 /* main.m */; };
+		5E45720028AF37F60090DAB4 /* KKBannerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E4571FF28AF37F60090DAB4 /* KKBannerView.m */; };
+		5E45720328AF38330090DAB4 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E45720228AF38330090DAB4 /* SecondViewController.m */; };
+		5E45721A28AF501A0090DAB4 /* 02.png in Resources */ = {isa = PBXBuildFile; fileRef = 5E45721728AF50190090DAB4 /* 02.png */; };
+		5E45721B28AF501A0090DAB4 /* 01.png in Resources */ = {isa = PBXBuildFile; fileRef = 5E45721828AF501A0090DAB4 /* 01.png */; };
+		5E45721C28AF501A0090DAB4 /* 03.png in Resources */ = {isa = PBXBuildFile; fileRef = 5E45721928AF501A0090DAB4 /* 03.png */; };
+		5EE93F3328BF598D00138C1E /* 04.png in Resources */ = {isa = PBXBuildFile; fileRef = 5EE93F3228BF598D00138C1E /* 04.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		5E4571E128AF34D20090DAB4 /* KKBannerView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KKBannerView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5E4571E428AF34D20090DAB4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		5E4571E528AF34D20090DAB4 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		5E4571E728AF34D20090DAB4 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
-		5E4571E828AF34D20090DAB4 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
 		5E4571EA28AF34D20090DAB4 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		5E4571EB28AF34D20090DAB4 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		5E4571EE28AF34D20090DAB4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -29,6 +32,14 @@
 		5E4571F328AF34D30090DAB4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5E4571F528AF34D30090DAB4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5E4571F628AF34D30090DAB4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5E4571FE28AF37F60090DAB4 /* KKBannerView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KKBannerView.h; sourceTree = "<group>"; };
+		5E4571FF28AF37F60090DAB4 /* KKBannerView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KKBannerView.m; sourceTree = "<group>"; };
+		5E45720128AF38330090DAB4 /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		5E45720228AF38330090DAB4 /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		5E45721728AF50190090DAB4 /* 02.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 02.png; sourceTree = "<group>"; };
+		5E45721828AF501A0090DAB4 /* 01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 01.png; sourceTree = "<group>"; };
+		5E45721928AF501A0090DAB4 /* 03.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 03.png; sourceTree = "<group>"; };
+		5EE93F3228BF598D00138C1E /* 04.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 04.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,10 +74,12 @@
 			children = (
 				5E4571E428AF34D20090DAB4 /* AppDelegate.h */,
 				5E4571E528AF34D20090DAB4 /* AppDelegate.m */,
-				5E4571E728AF34D20090DAB4 /* SceneDelegate.h */,
-				5E4571E828AF34D20090DAB4 /* SceneDelegate.m */,
 				5E4571EA28AF34D20090DAB4 /* ViewController.h */,
 				5E4571EB28AF34D20090DAB4 /* ViewController.m */,
+				5E45720128AF38330090DAB4 /* SecondViewController.h */,
+				5E45720228AF38330090DAB4 /* SecondViewController.m */,
+				5E45720428AF47FA0090DAB4 /* images */,
+				5E4571FD28AF37D50090DAB4 /* KKBanner */,
 				5E4571ED28AF34D20090DAB4 /* Main.storyboard */,
 				5E4571F028AF34D30090DAB4 /* Assets.xcassets */,
 				5E4571F228AF34D30090DAB4 /* LaunchScreen.storyboard */,
@@ -74,6 +87,26 @@
 				5E4571F628AF34D30090DAB4 /* main.m */,
 			);
 			path = KKBannerView;
+			sourceTree = "<group>";
+		};
+		5E4571FD28AF37D50090DAB4 /* KKBanner */ = {
+			isa = PBXGroup;
+			children = (
+				5E4571FE28AF37F60090DAB4 /* KKBannerView.h */,
+				5E4571FF28AF37F60090DAB4 /* KKBannerView.m */,
+			);
+			path = KKBanner;
+			sourceTree = "<group>";
+		};
+		5E45720428AF47FA0090DAB4 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				5E45721828AF501A0090DAB4 /* 01.png */,
+				5E45721728AF50190090DAB4 /* 02.png */,
+				5E45721928AF501A0090DAB4 /* 03.png */,
+				5EE93F3228BF598D00138C1E /* 04.png */,
+			);
+			path = images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -133,9 +166,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5E45721B28AF501A0090DAB4 /* 01.png in Resources */,
 				5E4571F428AF34D30090DAB4 /* LaunchScreen.storyboard in Resources */,
 				5E4571F128AF34D30090DAB4 /* Assets.xcassets in Resources */,
 				5E4571EF28AF34D20090DAB4 /* Main.storyboard in Resources */,
+				5EE93F3328BF598D00138C1E /* 04.png in Resources */,
+				5E45721C28AF501A0090DAB4 /* 03.png in Resources */,
+				5E45721A28AF501A0090DAB4 /* 02.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -146,10 +183,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5E45720328AF38330090DAB4 /* SecondViewController.m in Sources */,
+				5E45720028AF37F60090DAB4 /* KKBannerView.m in Sources */,
 				5E4571EC28AF34D20090DAB4 /* ViewController.m in Sources */,
 				5E4571E628AF34D20090DAB4 /* AppDelegate.m in Sources */,
 				5E4571F728AF34D30090DAB4 /* main.m in Sources */,
-				5E4571E928AF34D20090DAB4 /* SceneDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -299,7 +337,6 @@
 				INFOPLIST_FILE = KKBannerView/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -326,7 +363,6 @@
 				INFOPLIST_FILE = KKBannerView/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
