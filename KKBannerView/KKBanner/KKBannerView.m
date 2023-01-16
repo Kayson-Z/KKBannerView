@@ -57,12 +57,6 @@
         [img addGestureRecognizer:[[UITapGestureRecognizer alloc]initWithTarget:self action:@selector(tap:)]];
         [self.imagesArray addObject:img];
         [self.scrollView addSubview:img];
-//        //测试
-//        UILabel *label = [[UILabel alloc]init];
-//        label.textAlignment = NSTextAlignmentCenter;
-//        label.tag = 100 + i;
-//        label.font = [UIFont systemFontOfSize:22];
-//        [img addSubview:label];
     }
     
     _pageControl = [[UIPageControl alloc]init];
@@ -113,7 +107,7 @@
     }
     //处理图片数据
     [self handelPicData];
-    
+    [self setNeedsLayout];
 }
 
 /// 重新加载数据
@@ -135,8 +129,6 @@
     if (_indexDatas.count == 1) {
         //一张图片时不滚动
         [self cancelTimer];
-        self.scrollView.contentOffset = CGPointZero;
-        self.scrollView.contentSize = CGSizeZero;
         [self showImageView:self.imagesArray[0] withIndex:0];
         
     }else if (_indexDatas.count == 2) {
@@ -149,9 +141,9 @@
         [self handelShowing:self.scrollView withIndex:self.currentIndex];
         //启动定时器
         [self timerStart];
-        NSLog(@"开始启动---");
     }
     self.pageControl.numberOfPages = self.onlyDouble? 2 : _indexDatas.count;
+    self.pageControl.hidden = !(_indexDatas.count > 1);
 }
 
 
@@ -211,15 +203,6 @@
          @selector(KK_bannerView:showingImageView:withIndex:)]) {
         [self.dataSource KK_bannerView:self showingImageView:imageView withIndex:index];
     }
-    
-//    //测试
-//    for (UIView *view in imageView.subviews) {
-//        if ([view isMemberOfClass:UILabel.class]) {
-//            UILabel *label = (UILabel *)view;
-//            label.text = [NSString stringWithFormat:@"%ld",index];
-//            break;
-//        }
-//    }
 }
 
 
@@ -329,18 +312,20 @@
     if (self.indexDatas.count >1) {
         self.scrollView.contentSize = CGSizeMake(3*self.bounds.size.width, 0);
         self.scrollView.contentOffset = CGPointMake(self.bounds.size.width, 0);
+    } else {
+        self.scrollView.contentOffset = CGPointZero;
+        self.scrollView.contentSize = CGSizeZero;
     }
     
     //imageView
     for (int i = 0; i<self.imagesArray.count; i++) {
         UIImageView *img = self.imagesArray[i];
-        img.frame = CGRectMake(self.bounds.size.width * i, 0, self.bounds.size.width, self.bounds.size.height);
-//        //测试
-//        UILabel *label = [img viewWithTag:100 + i];
-//        label.frame = img.bounds;
+        img.frame = CGRectMake(self.bounds.size.width * i, 0,
+                               self.bounds.size.width, self.bounds.size.height);
     }
     
-    _pageControl.frame = CGRectMake(0, self.bounds.size.height-30, self.bounds.size.width, 30);
+    _pageControl.frame = CGRectMake(0, self.bounds.size.height-30,
+                                    self.bounds.size.width, 30);
 }
 
 - (void)dealloc {

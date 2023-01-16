@@ -26,7 +26,7 @@ KKBannerViewDataSource
     self.view.backgroundColor = UIColor.whiteColor;
     
     NSMutableArray *picTitles = [NSMutableArray array];
-    for (int i=0; i<4; i++) {
+    for (int i=0; i<0; i++) {
         NSString *text = [NSString stringWithFormat:@"%02d",i+1];
         [picTitles addObject:text];
     }
