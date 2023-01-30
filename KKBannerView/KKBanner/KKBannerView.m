@@ -52,7 +52,7 @@
     //添加循环3张图片
     for (int i=0; i<3; i++) {
         UIImageView *img = [UIImageView new];
-        img.contentMode = UIViewContentModeScaleAspectFit;
+        img.contentMode = UIViewContentModeScaleAspectFill;
         img.userInteractionEnabled = YES;
         [img addGestureRecognizer:[[UITapGestureRecognizer alloc]initWithTarget:self action:@selector(tap:)]];
         [self.imagesArray addObject:img];
